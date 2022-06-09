@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Fifa;
+  src: url(fuentes/New\ Athletic\ M54.ttf);
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+}
+
+main section ul {
+  justify-content: center;
+}
+main section ul li {
+  list-style: none;
+}
+main .Tarjeta_Verde {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  background-image: url(https://digitalhub.fifa.com/transform/e91119d6-4364-4739-a6fc-baf6225953aa/FIFA-Paris-Office-Meetings?io=transform:fill,aspectratio:21x9,width:1400&quality=100&io=overlay:box,color:000f2c,opacity:15);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 17% 0 17% 17%;
+  color: white;
+  font-family: Fifa;
+}
+main .Tarjeta_Verde h1:hover {
+  color: greenyellow;
+}
+main .Tarjeta_Verde h5 {
+  background-color: rgb(44, 44, 218);
+  border-radius: 6px;
+  height: 30px;
+  width: 520px;
+}
+main .Tarjeta_Verde h5:hover {
+  background-color: green;
+}
+main #Stream {
+  margin: auto;
+  padding: 0%;
+}
+main #Stream ul {
+  font-size: 30px;
+  font-family: Fifa;
+  color: white;
+  background-color: rgb(44, 44, 218);
+  text-align: center;
+  padding-bottom: 12px;
+}
+main #Stream ul:hover {
+  color: rgb(44, 44, 218);
+  background-color: white;
+  border-radius: 6px;
+}
+main .Anuncio {
+  display: flex;
+  color: white;
+  width: 100%;
+  justify-content: center;
+}
+main .Anuncio .align-items-center {
+  align-items: center !important;
+}
+main .Anuncio .card-heading-tiny {
+  text-decoration: none;
+  color: white;
+}
+main .Anuncio .CP {
+  background-color: rgba(29, 29, 231, 0.863);
+  border-radius: 6px;
+}
+
+footer {
+  display: flex;
+  font-family: Fifa;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Style.css.map */

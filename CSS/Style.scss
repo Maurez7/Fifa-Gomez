@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$color-blanco: white;
+@font-face {
+    font-family: Fifa;
+    src: url(fuentes/New\ Athletic\ M54.ttf);
+}
+@import "header";
+main{
+    section{
+        ul{
+            justify-content: center;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    .Tarjeta_Verde{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        background-image: url(https://digitalhub.fifa.com/transform/e91119d6-4364-4739-a6fc-baf6225953aa/FIFA-Paris-Office-Meetings?io=transform:fill,aspectratio:21x9,width:1400&quality=100&io=overlay:box,color:000f2c,opacity:15);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 17% 0 17% 17%;
+        color: $color-blanco;
+        font-family: Fifa;
+            h1:hover{
+                color: greenyellow;
+            }
+            h5{
+                background-color: rgb(44, 44, 218);
+                border-radius: 6px;
+                height: 30px;
+                width: 520px;
+            }
+            h5:hover{
+                background-color: green;
+            }
+    }
+    #Stream{
+        margin: auto;
+        padding: 0%;
+        ul{
+            font-size: 30px;
+            font-family: Fifa;
+            color: $color-blanco;
+            background-color: rgb(44, 44, 218);
+            text-align: center;
+            padding-bottom: 12px;
+            }
+            ul:hover{
+                color: rgb(44, 44, 218);
+                background-color: $color-blanco;
+                border-radius: 6px;
+            }
+        }
+    .Anuncio{
+        display: flex;
+        color: $color-blanco;
+        width: 100%;
+        justify-content: center;
+        .align-items-center {
+            align-items: center!important;
+        }
+        .card-heading-tiny{
+            text-decoration: none;
+            color: $color-blanco;
+        }
+        .CP{
+            background-color: rgba(29, 29, 231, 0.863);
+            border-radius: 6px;
+        }
+    }
+}
+@import "footer";
